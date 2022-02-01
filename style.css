@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(197, 194, 194);
+}
+
+.toDoList {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.notepad {
+  min-width: 200px;
+  min-height: 200px;
+  background-color: #fdbd18;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  box-shadow: 0 0 15px 3px black;
+}
+
+div > p {
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-right: 20px;
+}
+
+.input {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.buttons {
+  display: flex;
+}
+.add {
+  width: 50px;
+  height: 50px;
+  border-radius: 24px;
+  border: none;
+  margin-right: 24px;
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  background-color: #008000;
+  cursor: pointer;
+}
+
+.clear {
+  width: 50px;
+  height: 50px;
+  border-radius: 24px;
+  border: none;
+  margin-right: 24px;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  background-color: #ff0000;
+  cursor: pointer;
+}
+
+.add:hover {
+  filter: brightness(150%);
+}
+
+.clear:hover {
+  opacity: 0.5;
+}
